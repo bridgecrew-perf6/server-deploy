@@ -2,7 +2,7 @@ const admin = require('firebase-admin')
 const serviceAccount = require('./ServiceAccountKey.json')
 const nodemailer = require("nodemailer");
 const { scheduleJob } = require('node-schedule')
-const io = require('socket.io'))
+const io = require('socket.io')
 
 admin.initializeApp({
     credential: admin.credential.cert(serviceAccount)
