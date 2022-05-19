@@ -1,12 +1,13 @@
 {
-  
-"name": "server",
-"version": "1.0.0",
-"description": "server",
-"main": "server.js",
-"scripts": {
-  "test": "echo \"Error: no test specified\" && exit 1"
-},
+  "name": "server",
+  "version": "1.0.0",
+  "description": "server",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "build": "node build --output public"
+  },
   "dependencies": {
     "firebase-admin": "^10.0.2",
     "node-schedule": "^2.1.0",
@@ -16,5 +17,16 @@
   },
   "engines": {
     "node": "16.x"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eythorl/server-deploy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eythorl/server-deploy/issues"
+  },
+  "homepage": "https://github.com/eythorl/server-deploy#readme"
 }
